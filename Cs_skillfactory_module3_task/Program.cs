@@ -30,6 +30,10 @@
             var day = (MyDaysOfWeek)int.Parse(Console.ReadLine());
             Console.WriteLine("So, your favorite day is {0} ;)", day);
 
+            Console.Write("Enter your birthdate: ");
+            var birthdate = Console.ReadLine();
+            Console.WriteLine("Your birthdate is {0}",birthdate);
+
             Console.ReadKey();
 
         }
